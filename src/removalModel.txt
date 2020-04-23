@@ -1,0 +1,16 @@
+model{
+  for (ii in 1:nrows){
+    ct[ii]~dbinom(p, N0-sumct[ii])
+  }
+  
+  #latent variable
+  N0~dpois(lambda)
+  
+  #priors
+  p~dbeta(0.5,0.5)
+  lambda~dunif(1526, 10000)
+  
+  #days
+  days~dpois(log(1/N0)/log(1-p))
+  
+}
