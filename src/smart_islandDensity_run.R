@@ -1,3 +1,26 @@
+#####################################################################
+###   For publication in Smart, Tingley & Phillips (2020)         ###
+###   Estimating the benefit of quarantine:                       ###
+###   eradicating invasive cane toads from islands                ###
+###                                                               ###
+###   Code author: Adam Smart                                     ###
+###   Available from: https://github.com/assma1/islandDensity     ###
+###                                                               ###
+###   Data and scripts availbiel at:                              ###
+###                                                               ###
+###   Additional scripts: 'smart_islandDensity_functions.R'       ###
+###                       'smart_islandDensity_analysis.R         ###
+###                       'smart_islandDensity_figures.R'         ###
+###                       'removal_model.txt'                     ###
+###                       'removal_model_II.txt'                  ###
+###   Required data:      'costData.xlsx'                         ###
+###                       'removalData.xlsx'                      ###
+###                       'toadCosting.xlsx'                      ###
+###                                                               ###
+###   Updated 18.05.2020                                          ###
+#####################################################################
+
+
 set.seed(1000)
 
 #clear workspace
